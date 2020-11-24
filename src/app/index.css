@@ -7,8 +7,8 @@ body {
 .card {
   background-color: white;
   border-radius: 2px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 18%;
+  margin-right: 18%;
   margin-bottom: 10px;
   padding: 18px 18px;
   border: 1px solid rgba(0, 0, 0, 0.10);
@@ -21,10 +21,18 @@ h2 {
 }
 
 .header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  left: auto;
+  right: 0;
   background-color: #394b59;
   color: white;
   padding: 20px 16px;
-  margin-bottom: 12px;
+  -webkit-box-shadow: -2px 10px 23px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 10px 23px -6px rgba(0,0,0,0.75);
+  box-shadow: -2px 10px 23px -6px rgba(0,0,0,0.75);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .header a {
@@ -42,6 +50,15 @@ h2 {
 
 .header .external-links a i {
   font-size: 20px;
+}
+
+.profile-header {
+  height: 300px;
+  background-image: url(assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  margin-bottom: 30px;
+  opacity: 0.60;
 }
 
 .profile {
