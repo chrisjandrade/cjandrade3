@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 246, 236, 0.15);
+}
+
+.card {
+  background-color: white;
+  border-radius: 2px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
+  padding: 18px 18px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+h2 {
+  font-size: 23px;
+  margin-bottom: 3px;
+  font-weight: 300;
+}
+
+.header {
+  background-color: #394b59;
+  color: white;
+  padding: 20px 16px;
+  margin-bottom: 12px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a.app-link {
+  font-size: 18px;
+}
+
+.header .external-links a {
+  margin-left: 12px;
+}
+
+.header .external-links a i {
+  font-size: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  border: 10px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-shadow: 10px 10px 66px -23px rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
+}
+
+.profile .name {
+  font-size: 34px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.profile .summary {
+  text-align: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
